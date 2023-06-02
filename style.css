@@ -1,0 +1,103 @@
+/* h1 {
+  font-size: 3em;
+  font-weight: 900;
+  color: #333333;
+  margin-bottom: 20px;
+} */
+
+h2 {
+  font-size: 120px;
+  color: #990100;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 40px;
+  color: #990100;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+
+}
+
+h4 {
+  font-size: 32px;
+  color: #990100;
+  /* font-family: 'Lato', sans-serif; */
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 21px;
+  color: #242424;
+  /* line-height: 1.1; */
+  background: #E8E8E8;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 4px;
+  margin: 4px auto;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, .1);
+  border: 1px solid lightgrey;
+
+
+  /* background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center; */
+
+  /* background: white;
+  padding: 30px;
+  border: 1px solid lightgrey; */
+}
+
+.container {
+  width: 840px;
+  margin: 0px auto;
+}
+
+i {
+  font-size: 40px;
+  color: #333333;
+}
+
+i:hover {
+  color: #990100;
+}
+
+p {
+  display: flex;
+  align-items: center;
+}
+
+p a {
+  margin-right: 10px;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
